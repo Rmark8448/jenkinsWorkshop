@@ -76,7 +76,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.poker.app.FiveCardDraw</mainClass>
+                            <mainClass>cs350.poker.app.FiveCardDraw</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

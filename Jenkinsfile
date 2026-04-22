@@ -13,9 +13,7 @@ pipeline {
         }
         stage('Build & Test') {
             steps {
-                dir('poker') {
-                    sh 'mvn clean test'
-                }
+                sh 'mvn clean test'
             }
         }
         stage('Publish Test Results') {
